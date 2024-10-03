@@ -2,7 +2,7 @@
 from ocr_solver import OCRSolver
 
 # from an existing image
-ocr = OCRSolver(image_path='captcha.img')
+ocr = OCRSolver(image_path='captcha.png')
 print(ocr.extract())
 
 # from a base64 image
